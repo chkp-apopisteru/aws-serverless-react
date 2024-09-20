@@ -1,5 +1,9 @@
 # React + Vite
 
+Deployment in Amplify based on [AWS tutorial](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/) 
+
+In lambdas Check Point Cloud Guard layer will be injected.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -29,3 +33,5 @@ File written: amplify_outputs.json
 npx ampx generate graphql-client-code --out amplify/auth/post-confirmation/graphql
 
 Amplify will create the folder amplify/auth/post-confirmation/graphql where you will find the client code to connect to the GraphQL API.
+
+Clean up: In the Amplify console, in the left-hand navigation for the profilesapp, choose App settings, and select General settings. In the General settings section, choose Delete app.
